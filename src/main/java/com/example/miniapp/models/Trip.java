@@ -6,6 +6,7 @@ import lombok.Data;
 import java.time.LocalDateTime;
 
 @Entity
+@Table (name="trips")
 @Data
 public class Trip {
 
