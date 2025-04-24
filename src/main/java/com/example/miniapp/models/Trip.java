@@ -51,6 +51,13 @@ public class Trip {
         this.customer = customer;
     }
 
+    public Trip(LocalDateTime now, String origin, String destination, double tripCost) {
+        this.tripDate = now;
+        this.origin = origin;
+        this.destination = destination;
+        this.tripCost = tripCost;
+    }
+
     // Getters and Setters
     public Long getId() {
         return id;
