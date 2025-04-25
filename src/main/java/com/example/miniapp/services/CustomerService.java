@@ -39,9 +39,9 @@ public class CustomerService {
         return customerRepository.save(updatedData);
     }
     public void deleteCustomer(Long id) {
-        if (!customerRepository.existsById(id)) {
-            throw new EntityNotFoundException("Customer " + id + " not found");
-        }
+        // if (!customerRepository.existsById(id)) {
+        //     throw new EntityNotFoundException("Customer " + id + " not found");
+        // }
         customerRepository.deleteById(id);
     }
     public List<Customer> findCustomersByEmailDomain(String domain) {

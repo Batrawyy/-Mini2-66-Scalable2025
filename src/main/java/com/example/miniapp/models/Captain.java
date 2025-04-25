@@ -35,6 +35,47 @@ public class Captain {
         this.avgRatingScore = avgRatingScore;
     }
 
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getLicenseNumber() {
+        return licenseNumber;
+    }
+
+    public void setLicenseNumber(String licenseNumber) {
+        this.licenseNumber = licenseNumber;
+    }
+
+    public Double getAvgRatingScore() {
+        return avgRatingScore;
+    }
+
+    public void setAvgRatingScore(Double avgRatingScore) {
+        this.avgRatingScore = avgRatingScore;
+    }
+
+    public List<Trip> getTrips() {
+        return trips;
+    }
+
+    public void setTrips(List<Trip> trips) {
+        this.trips = trips;
+    }
+
 
 
 }
+

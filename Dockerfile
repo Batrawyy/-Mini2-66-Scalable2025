@@ -9,4 +9,4 @@ ENV instance_name="Main Instance"
 EXPOSE 8080
 
 # We change the name of the build file into lab4 in pom.xml
-ENTRYPOINT ["java", "-jar", "target/lab4.jar"]
+ENTRYPOINT ["java", "-jar", "target/miniapp-0.0.1-SNAPSHOT.jar"]
